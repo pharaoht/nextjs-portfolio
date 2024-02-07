@@ -18,7 +18,7 @@ const Hero = () => {
             Developer
           </h1>
           <span className="md:w-4/4 mb-5">
-            Experience problem solver with a drive for technology and a growth mindset to learn more technologies. My individual
+            Experienced problem solver with a drive for technology and a growth mindset to learn more technologies. My individual
             character includes a passion for empowering people, with ethical values of diversion and inclusion, I believe different
             perspectives help us all to achieve our potential. {" "}
             <Link href={"#contact"}>
