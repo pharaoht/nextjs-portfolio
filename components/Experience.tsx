@@ -20,7 +20,7 @@ const experienceDetails = [
     position: 'Artillery Mechanic (Sergeant E-5)', 
     company: 'United States Marine Corps', 
     dates:'2015-2019', 
-    desc: 'Message will go here'
+    desc: 'M777A2 Howitzer, responsible for the disposition, evacuation and movement of all equipment requiring higher maintenance; Responsible for the health, welfare, and training of 5 Marines; Maintained accountability of over $300,000 worth of repair parts and $500,000 worth of Department of Defense equipment'
   }
 ]
 
