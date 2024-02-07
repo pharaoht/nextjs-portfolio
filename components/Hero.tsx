@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="relative flex justify-between max-w-[1400px] mx-auto items-center h-full w-[91%] max-md:flex-col">
         <div className="flex flex-col justify-center text-white flex-1 max-md:order-2 max-md:text-center">
           <h2 className="font-bold md:text-4xl text-3xl mb-2">
-            Hi I'm Pharaoh a Full Stack
+            Hi I&#39;m Pharaoh a Full Stack
           </h2>
           <h1 className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl text-yellow-500 font-bold mb-5">
             Developer
