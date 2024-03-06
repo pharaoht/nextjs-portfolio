@@ -9,7 +9,7 @@ const Projects = () => {
     const url = 'https://car-10tkm5rb2-pharaoh-mansons-projects.vercel.app/'
 
     return (
-        <section id='projects' className='w-full h-fit py-20 relative bg-gray-200'>
+        <section id='projects' className='w-full h-fit py-20 relative bg-gray-100'>
             <SectionHeader title={title} />
             <div className='max-w-[91%] mx-auto grid md:grid-cols-3 md:gap-10'>
                 <WebsiteCard 
