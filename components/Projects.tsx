@@ -24,7 +24,7 @@ const Projects = () => {
                     siteUrl={url2}
                     imageSrc='/travelsite.PNG'
                     subText='Search for flights - built with Next.js'
-                    imgText='Go to Car Hub &rarr;'
+                    imgText='Go to Flight Search &rarr;'
                     altText='car hub image'
                 />
 
