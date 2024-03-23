@@ -6,7 +6,8 @@ const Projects = () => {
 
     const title = 'Projects';
 
-    const url = 'https://car-10tkm5rb2-pharaoh-mansons-projects.vercel.app/'
+    const url = 'https://car-10tkm5rb2-pharaoh-mansons-projects.vercel.app/';
+    const url2 = 'https://nextjs-flight-tickets-hcux5ti7r-pharaoh-mansons-projects.vercel.app/';
 
     return (
         <section id='projects' className='w-full h-fit py-20 relative bg-gray-100'>
@@ -19,6 +20,14 @@ const Projects = () => {
                     imgText='Go to Car Hub &rarr;'
                     altText='car hub image'
                 />
+                <WebsiteCard 
+                    siteUrl={url2}
+                    imageSrc='/travelsite.PNG'
+                    subText='Search for flights - built with Next.js'
+                    imgText='Go to Car Hub &rarr;'
+                    altText='car hub image'
+                />
+
             </div>
         </section>
     )
