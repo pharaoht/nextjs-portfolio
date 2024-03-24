@@ -7,7 +7,7 @@ const Projects = () => {
     const title = 'Projects';
 
     const url = 'https://car-10tkm5rb2-pharaoh-mansons-projects.vercel.app/';
-    const url2 = 'https://nextjs-flight-tickets-hcux5ti7r-pharaoh-mansons-projects.vercel.app/';
+    const url2 = 'https://nextjs-flight-tickets.vercel.app/';
 
     return (
         <section id='projects' className='w-full h-fit py-20 relative bg-gray-100'>
