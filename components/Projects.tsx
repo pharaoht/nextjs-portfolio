@@ -6,7 +6,7 @@ const Projects = () => {
 
     const title = 'Projects';
 
-    const url = 'https://car-10tkm5rb2-pharaoh-mansons-projects.vercel.app/';
+    const url = 'https://car-hub-three-red.vercel.app/';
     const url2 = 'https://nextjs-flight-tickets.vercel.app/';
 
     return (
