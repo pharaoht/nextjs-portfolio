@@ -8,6 +8,7 @@ const Projects = () => {
 
     const url = 'https://car-hub-three-red.vercel.app/';
     const url2 = 'https://nextjs-flight-tickets.vercel.app/';
+    const url3 = 'https://bug-tracker-production-0885.up.railway.app/'
 
     return (
         <section id='projects' className='w-full h-fit py-20 relative bg-gray-100'>
@@ -25,7 +26,14 @@ const Projects = () => {
                     imageSrc='/travelsite.PNG'
                     subText='Search for flights - built with Next.js'
                     imgText='Go to Flight Search &rarr;'
-                    altText='car hub image'
+                    altText='bug tracker image'
+                />
+                <WebsiteCard
+                    siteUrl={url3}
+                    imageSrc='/backend.png'
+                    subText='Bug Tracker API - built with node.js'
+                    imgText='Go to Bug Tracker &rarr;'
+                    altText='bug tracker image'
                 />
 
             </div>
