@@ -8,7 +8,8 @@ const Projects = () => {
 
     const url = 'https://car-hub-three-red.vercel.app/';
     const url2 = 'https://nextjs-flight-tickets.vercel.app/';
-    const url3 = 'https://bug-tracker-production-0885.up.railway.app/'
+    const url3 = 'https://bug-tracker-production-0885.up.railway.app/';
+    const url4 = 'https://bug-tracker-frontend-kappa.vercel.app/';
 
     return (
         <section id='projects' className='w-full h-fit py-20 relative bg-gray-100'>
@@ -31,11 +32,17 @@ const Projects = () => {
                 <WebsiteCard
                     siteUrl={url3}
                     imageSrc='/backend.png'
-                    subText='Bug Tracker API - built with node.js'
+                    subText='Bug Tracker API - built with Node.js'
                     imgText='Go to Bug Tracker &rarr;'
                     altText='bug tracker image'
                 />
-
+                <WebsiteCard
+                    siteUrl={url4}
+                    imageSrc='/adminHub.png'
+                    subText='Bug Tracker UI - built with Next.js'
+                    imgText='Go to Bug Tracker UI &rarr;'
+                    altText='bug tracker ui image'
+                />
             </div>
         </section>
     )
