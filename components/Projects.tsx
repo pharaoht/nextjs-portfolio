@@ -10,7 +10,8 @@ const Projects = () => {
     const url2 = 'https://nextjs-flight-tickets.vercel.app/';
     const url3 = 'https://bug-tracker-production-0885.up.railway.app/';
     const url4 = 'https://bug-tracker-frontend-kappa.vercel.app/';
-    const url5 = 'https://e-comm-green.vercel.app/'
+    const url5 = 'https://e-comm-green.vercel.app/';
+    const url6 = 'https://loca-sphere.vercel.app/';
 
     return (
         <section id='projects' className='w-full h-fit py-20 relative bg-gray-100'>
@@ -50,6 +51,13 @@ const Projects = () => {
                     subText='E-com clothing site - built with Next.js'
                     imgText='Go to Clothing site &rarr;'
                     altText='p&m ui image'
+                />
+                <WebsiteCard
+                    siteUrl={url6}
+                    imageSrc='/locaSphere.png'
+                    subText='Rental Booking site - built with Next.js'
+                    imgText='Go to booking site &rarr;'
+                    altText='loca sphere'
                 />
             </div>
         </section>
